@@ -3,7 +3,7 @@ html, body  {
 }
 h1 {    
     font-family: 'Quicksand', sans-serif, "Times New Roman", 'Spectral', serif;
-    font-weight: 400;
+    font-weight: 500;
     text-align: center;
     text-transform: uppercase;
     vertical-align: text-top;
@@ -27,7 +27,7 @@ p {
 }
 ul {
     font-family: 'Spectral', serif;
-    font-weight: 400;
+    font-weight: 500;
     background-color: #2ca5a1;
     text-align: center;
     vertical-align: center;
@@ -44,7 +44,7 @@ address  {
 }
 footer {
     font-family: 'Quicksand', sans-serif, "Times New Roman", 'Spectral', serif;
-    font-weight: 400;
+    font-weight: 700;
     text-align: center;
     text-transform: uppercase;
 }
