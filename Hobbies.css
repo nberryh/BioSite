@@ -1,0 +1,59 @@
+html, body  {
+    font-size: 20px;
+    background-color:  #2CA565;
+}
+h1 {    
+    font-family: 'Quicksand', sans-serif, "Times New Roman", 'Spectral', serif;
+    font-weight: 500;
+    text-align: center;
+    text-transform: uppercase;
+    vertical-align: text-top;
+    line-height: 1.4em;
+    word-spacing: .2em;
+}
+header {
+    text-align: start;
+}
+button {
+    text-align: center;
+}
+#Pets {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-top: 10%;
+}
+p {
+    font-family: 'Quicksand', sans-serif, "Times New Roman", 'Spectral', serif;
+    font-weight: 400;
+    text-align: right;
+    word-spacing: .4em;
+}
+ul {
+    font-family: 'Spectral', serif;
+    font-weight: 500;
+    background-color: #2ca5a1;
+    text-align: center;
+    vertical-align: center;
+    text-transform: inherit;
+}
+address  {
+    font-family: 'Spectral', serif;
+    font-weight: 400;
+    padding: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    vertical-align: text-bottom;
+    word-spacing: .5em;
+}
+footer {
+    font-family: 'Quicksand', sans-serif, "Times New Roman", 'Spectral', serif;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+}
+.Kids {
+    border-style: solid;
+    border-color: #2C2FA5;
+    padding: 5px;
+    border-radius: 15px;
+    }
