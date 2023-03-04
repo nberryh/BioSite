@@ -10,7 +10,7 @@ h1 {
     line-height: 1.4em;
     word-spacing: .2em;
 }
-header {
+.header {
     text-align: start;
 }
 button {
@@ -25,7 +25,7 @@ p {
     text-align: right;
     word-spacing: .4em;
 }
-ul {
+.figure {
     font-family: 'Spectral', serif;
     font-weight: 500;
     background-color: #2ca5a1;

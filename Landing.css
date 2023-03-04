@@ -10,8 +10,10 @@ h1 {
     line-height: 1.4em;
     word-spacing: .2em;
 }
-header {
-    text-align: start;
+.header {
+    text-align: center;
+    width: 300px;
+    height: 200px;
 }
 button {
     text-align: center;
@@ -19,19 +21,14 @@ button {
 body {
     background-color:  #2CA565;
 }
-img.Degree {
-    width: 300px;
-    height: 200px;
-}
-img.Profile {
+.first {
+    border-style: none;
+    padding: 5px;
+    border-radius: 15px;
     width: 150px;
     height: 200px;
 }
-image.First {
-    width: 150px;
-    height: 125px;
-}
-ul {
+.list {
     font-family: 'Spectral', serif;
     font-weight: 400;
     background-color: #2ca5a1;
