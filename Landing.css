@@ -12,6 +12,8 @@ h1 {
 }
 .header {
     text-align: center;
+}
+.header img {
     width: 300px;
     height: 200px;
 }
@@ -21,14 +23,21 @@ button {
 body {
     background-color:  #2CA565;
 }
+#profile {
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-top: 10%;
+}
 .first {
     border-style: none;
     padding: 5px;
     border-radius: 15px;
-    width: 150px;
-    height: 200px;
 }
-.list {
+.first img {
+    width: 200px;
+    height: 220px;
+}
+#list {
     font-family: 'Spectral', serif;
     font-weight: 400;
     background-color: #2ca5a1;
@@ -36,7 +45,10 @@ body {
     vertical-align: center;
     text-transform: inherit;
 }
-address  {
+figure {
+    text-align: center;
+}
+#address  {
     font-family: 'Spectral', serif;
     font-weight: 400;
     padding: 15px;
