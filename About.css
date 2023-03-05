@@ -1,6 +1,7 @@
 html, body  {
     font-size: 20px;
-    background-color:  #2CA565
+    background-color:  #2CA565;
+    border: 15px solid #2C2FA5;
 }
 .header {
     text-align: center;
@@ -19,11 +20,23 @@ h1 {
     line-height: 1.4em;
     word-spacing: .2em;
 }
+h2 {
+    font-family: 'Quicksand', sans-serif, "Times New Roman", 'Spectral', serif;
+    font-weight: 500;
+    text-align: center;
+    text-transform: uppercase; 
+}
 p {
     font-family: 'Quicksand', sans-serif, "Times New Roman", 'Spectral', serif;
     font-weight: 400;
     text-align: right;
     word-spacing: .4em;
+    position: relative;
+}
+#contact {
+    display: block;
+    grid-template-columns: auto;
+    margin:auto
 }
 .figure {
     font-family: 'Spectral', serif;
@@ -32,6 +45,7 @@ p {
     text-align: center;
     vertical-align: center;
     text-transform: inherit;
+    text-decoration: none;
 }
 address  {
     font-family: 'Spectral', serif;
