@@ -1,5 +1,13 @@
 html, body  {
-    font-size: 20px
+    font-size: 20px;
+    background-color:  #2CA565;
+}
+.header {
+    text-align: center;
+}
+.header img {
+    width: 300px;
+    height: 200px;
 }
 h1 {    
     font-family: 'Quicksand', sans-serif, "Times New Roman", 'Spectral', serif;
@@ -10,19 +18,6 @@ h1 {
     line-height: 1.4em;
     word-spacing: .2em;
 }
-.header {
-    text-align: center;
-}
-.header img {
-    width: 300px;
-    height: 200px;
-}
-button {
-    text-align: center;
-}
-body {
-    background-color:  #2CA565;
-}
 #profile {
     display: grid;
     grid-template-columns: auto auto;
@@ -32,9 +27,13 @@ body {
     border-style: none;
     padding: 5px;
     border-radius: 15px;
+    display: block;
+    margin: auto;
+    border-style: solid;
+    border-color: #2C2FA5;
 }
 .first img {
-    width: 200px;
+    width: 300px;
     height: 220px;
 }
 #list {
